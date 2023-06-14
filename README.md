@@ -15,7 +15,7 @@ For Unix-like operating systems, you can use the following command:
 
 ```bash
 Copy code
-chmod +x mermaid4j 
+chmod +x mermaid4j
 ```
 
 Move the binary to a directory included in your PATH for easy access.
