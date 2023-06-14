@@ -14,14 +14,12 @@ Extract the downloaded file and make the binary executable.
 For Unix-like operating systems, you can use the following command:
 
 ```bash
-Copy code
 chmod +x mermaid4j
 ```
 
 Move the binary to a directory included in your PATH for easy access.
 
 ```bash
-Copy code
 mv mermaid4j /usr/local/bin/
 ```
 
@@ -31,14 +29,12 @@ You can use this tool directly from the command line by running the binary follo
 directories are provided, the current directory will be scanned.
 
 ```bash
-Copy code
 mermaid4j <directory_1> <directory_2> ... <directory_n>
 ```
 
 Alternatively, you can specify a path to scan using the --path flag:
 
 ```bash
-Copy code
 mermaid4j --path /path/to/scan
 ```
 
